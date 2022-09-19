@@ -2,3 +2,4 @@
 .idea
 console
 console_linux_amd64
+dist/*
