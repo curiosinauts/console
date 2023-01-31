@@ -1,0 +1,47 @@
+site_name: CuriosityWorks.org  
+copyright: Copyright &copy; 2023 7onetella
+repo_url: https://github.com/curiosinauts/console
+edit_uri: edit/main/docs/
+
+nav:
+  - 'index.md'
+  - Learning:
+    - Goals:
+      - 'learning/goals.md'
+  # - AwsLogin: '!import https://github.com/viacomcbs/dsnp-awslogin?branch=main&docs_dir=docs&multi_docs=False&config=mkdocs.yml'
+
+theme:
+  name: material
+  language: en
+  favicon: images/favicon-32x32.png
+  icon:
+    repo: fontawesome/brands/github
+  logo: images/logo.gif
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: paramount-light
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+#  features:
+#    - navigation.tabs
+#    - navigation.tabs.sticky
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+extra:
+  generator: false
+
+plugins:
+  - multirepo
+
+
+
